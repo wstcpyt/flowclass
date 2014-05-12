@@ -12,6 +12,8 @@
 @property(nonatomic) int sum;
 
 @property(nonatomic,strong)TestClass *testClass;
+
+-(void)sayByeBye;
 @end
 
 @implementation ViewController
@@ -24,6 +26,7 @@
     int b=10;
     self.sum=a+b;
     NSLog(@"The result is:%d",self.sum);
+    [self sayByeBye];
 }
 
 - (void)didReceiveMemoryWarning
@@ -32,4 +35,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)sayByeBye
+{
+    NSLog(@"Bye-Bye");
+    
+}
 @end
