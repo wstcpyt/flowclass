@@ -25,6 +25,7 @@
     int b=10;
     self.sum=a+b;
     NSLog(@"The result is:%d",self.sum);
+    [self sayByeBye];
 }
 
 - (void)didReceiveMemoryWarning
