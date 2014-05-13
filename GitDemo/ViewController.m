@@ -12,6 +12,7 @@
 @property(nonatomic) int sum;
 @property(nonatomic) int sum1;
 @property(nonatomic,strong)TestClass *testClass;
+@property(nonatomic,strong) NSString *wstc;
 -(void)sayHello;
 @end
 
